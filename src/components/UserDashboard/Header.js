@@ -16,9 +16,8 @@ function Header({ spotify }) {
               type: "SET_FETCHED_TRACKS",
               fetched_tracks: response
             })
-        })
+        })   
 
-          
     }, [query]);
 
     function updateSearch(event) {
@@ -28,7 +27,7 @@ function Header({ spotify }) {
     const getSearch = (event) => {
         event.preventDefault();
         setQuery(search);
-      }
+    }
 
     const [{ user }, dispatch] = useDataLayerValue();
 
@@ -53,5 +52,7 @@ function Header({ spotify }) {
         </div>
     )
 }
+
+
 
 export default Header;

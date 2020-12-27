@@ -10,14 +10,12 @@
 }
 
 .songRow .songPicture_andName {
-    /* background-color: red; */
     display: flex;
     align-items: center;
     flex: 0.5;
 }
 
 .songRow .songAlbum {
-    /* background-color: yellow; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -26,7 +24,6 @@
 }
 
 .songRow .songDuration {
-    /* background-color: skyblue; */
     display: flex;
     align-items: center;
     justify-content: flex-end;

@@ -49,7 +49,6 @@
    margin-top: 20px;
    margin-bottom: 20px; 
    text-align: left !important;
-   /* color: rgb(86, 202, 86); */
 }
 
 .body__shuffle:hover {
@@ -70,8 +69,6 @@
     align-items: center;
     z-index: 100;
     color: white;
-    /* background-color: rgb(66, 66, 66); */
-    /* font-size: 300px; */
 }
 
 .titleBar_above_songRow div h5 {
@@ -79,20 +76,17 @@
 }
 
 .titleBar_title {
-    /* background-color: purple; */
     display: flex;
     flex: 0.5;
 }
 
 .titleBar_album {
-    /* background-color: yellow; */
     display: flex;
     flex: 0.3;
     margin-left: 150px;
 }
 
 .titleBar_duration {
-    /* background-color: cyan; */
     display: flex ;
     flex: 0.2;
     margin-right: 20px;
@@ -116,7 +110,7 @@
     color: white;
 }
 
-/* DO NOT DELETE THIS CSS. THIS CSS CAN BE USED TO SPECIFICALLY TARGET  THE TITLEBAR ABOVE SONGROW OF DISCOVER WEEKLY */
+/* DO NOT DELETE THIS CSS. THIS CSS CAN BE USED TO SPECIFICALLY TARGET THE TITLEBAR ABOVE SONGROW OF DISCOVER WEEKLY */
 
 /* .discover_weekly_titleBar_and_songRow_container .titleBar_title {
     background-color: crimson;

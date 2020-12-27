@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../css/UserDashboard/Footer.css';
-import PlayCircleOutlineOutlinedIcon from '@material-ui/icons/PlayCircleOutlineOutlined';
-import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
-import SkipNextIcon from '@material-ui/icons/SkipNext';
-import ShuffleIcon from '@material-ui/icons/Shuffle';
-import RepeatIcon from '@material-ui/icons/Repeat';
-import PlaylistPlayIcon from '@material-ui/icons/PlaylistPlay';
-import VolumeDownIcon from '@material-ui/icons/VolumeDown';
-import { Grid, Slider } from "@material-ui/core";
+// import PlayCircleOutlineOutlinedIcon from '@material-ui/icons/PlayCircleOutlineOutlined';
+// import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
+// import SkipNextIcon from '@material-ui/icons/SkipNext';
+// import ShuffleIcon from '@material-ui/icons/Shuffle';
+// import RepeatIcon from '@material-ui/icons/Repeat';
+// import PlaylistPlayIcon from '@material-ui/icons/PlaylistPlay';
+// import VolumeDownIcon from '@material-ui/icons/VolumeDown';
+// import { Grid, Slider } from "@material-ui/core";
 import { useDataLayerValue } from '../../DataLayer';
 
 function Footer() {
@@ -64,6 +64,7 @@ function Footer() {
                 // src="https://open.spotify.com/embed/playlist/5vgwnsqLVlCLfqZuWOcMH4"  // to pass entire playlist to iframe
                 // src="https://open.spotify.com/embed/album/6mOfUlKhx0AROUKdxA7v6Z"     // to pass an album to iframe
                 src= {trackSrc} 
+                title = 'Music Player'
                 width="100%" 
                 height="100" 
                 frameborder="20" 
@@ -74,5 +75,7 @@ function Footer() {
         </div>      
     )
 }
+
+
 
 export default Footer;

@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react';
-// import Login from './components/Login';
+import React, { useEffect } from 'react';
 import LoginPage from './Pages/LoginPage';
-// import Player from './components/Player';
 import UserDashboard from './Pages/UserDashboard';
 import './App.css';
 import { getTokenFromUrl } from './spotify';
