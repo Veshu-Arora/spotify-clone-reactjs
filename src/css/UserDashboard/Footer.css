@@ -1,0 +1,70 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    height: 65px;
+    width: 100%;
+    background-color: #282828;
+    /* padding: 20px; */
+}
+
+/* DO NOT DELETE THSI CSS. THIS CSS BELONGS TO THE COMMENTED CODE IN THE Footer.js FILE */
+
+/* .footer__left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+
+.footer__center {
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.footer__albumLogo {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.footer__green {
+    color: green;
+}
+
+.footer__songInfo {
+    text-align: left;
+}
+
+.footer__songInfo > h4 {
+    margin-bottom: 5px;
+}
+
+.footer__songInfo > p {
+    font-size: 12px;
+}
+
+.footer__icon:hover, .footer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.footer__right {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer__right * .MuiSlider-root {
+    color: green;
+} */

@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__left {
+    flex: 0.5;
+    min-width: 90px !important;
+    background-color: white;
+    color: grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.header__left > input {
+    border: none;
+    width: 90%;
+    outline: none;
+    font-size: 14px;
+}
+
+.header__left .searchIcon {
+    font-size: 30px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__right > h4 {
+    margin-left: 10px
+}

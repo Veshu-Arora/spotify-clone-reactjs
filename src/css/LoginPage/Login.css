@@ -1,0 +1,51 @@
+.login{
+    display: flex;
+    height: 100vh;
+    background-color: white;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    
+    /* background-color: rgb(22, 21, 21); */
+}
+
+.login .app-introduction-and-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    flex: 0.65;
+}
+
+.login .wallpaper-image {
+    height: 100vh;
+    flex: 0.35;
+}
+
+.login .wallpaper-image img {
+    height: 100%;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.login a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(24, 24, 24);
+    font-weight: 650;
+    color: white;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.login .spotify-logo {
+    margin-top: 20px;
+}
+
+.login .app-description {
+    align-items: center;
+    margin: 50px 160px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 350;
+    text-align: left;
+}
