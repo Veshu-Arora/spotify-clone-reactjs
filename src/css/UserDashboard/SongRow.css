@@ -6,13 +6,18 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    color: white;
+    color: #ffffff;
+    max-height: 72px;
+    overflow: hidden;
 }
 
 .songRow .songPicture_andName {
     display: flex;
     align-items: center;
     flex: 0.5;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .songRow .songAlbum {
@@ -21,6 +26,9 @@
     align-items: center;
     margin-left: 150px;
     flex: 0.3;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .songRow .songDuration {
